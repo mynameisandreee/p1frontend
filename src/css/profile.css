@@ -1,0 +1,41 @@
+body {
+    background: #ff7e5f; /* Fallback color */
+    background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Standard syntax */
+    min-height: 100vh;
+}
+
+
+/* Ensure the profile container takes up the full viewport height */
+.profile-container {
+    min-height: 100vh;
+  
+}
+
+/* Centering the profile widget */
+.profile-container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the profile image */
+.profile img {
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border for better visibility */
+}
+
+/* Styling the profile card */
+.bg-dark {
+    background-color: #343a40 !important; /* Dark background for the profile header */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important; /* Light background for stats and posts */
+}
+
+/* Add Post Button */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
